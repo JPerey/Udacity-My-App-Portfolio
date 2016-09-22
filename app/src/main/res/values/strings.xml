@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App PortCoolio</string>
+    <string name="Banner">Upcoming Apps!</string>
+    <string name="PopularMovies">Popular Movies</string>
+    <string name="StockHawk">Stock Hawk</string>
+    <string name="BuildItBigger">Build It Bigger</string>
+    <string name="MakeYourAppMaterial">Make Your App Material</string>
+    <string name="GoUbiquitous">Go Ubiquitous</string>
+    <string name="Capstone">Capstone</string>
+</resources>

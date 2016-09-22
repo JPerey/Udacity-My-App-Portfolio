@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5px"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="polyesterprogrammer.com.appportcoolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Banner"
+        android:id="@+id/Banner"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Banner"
+        android:layout_marginBottom="5px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PopularMovies"
+            android:id="@+id/PopularMovies"
+            android:layout_below="@+id/Banner"
+            android:layout_centerHorizontal="true"
+            android:singleLine="false"
+            android:background="#4caf50"
+            android:layout_marginBottom="5px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/StockHawk"
+            android:id="@+id/StockHawk"
+            android:layout_below="@+id/Banner"
+            android:layout_centerHorizontal="true"
+            android:background="#4caf50"
+            android:layout_marginBottom="5px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildItBigger"
+            android:id="@+id/BuildItBigger"
+            android:layout_below="@+id/Banner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5px"
+            android:background="#4caf50"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MakeYourAppMaterial"
+            android:id="@+id/MakeYourAppMaterial"
+            android:layout_below="@+id/Banner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5px"
+            android:background="#4caf50"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GoUbiquitous"
+            android:id="@+id/GoUbiquitous"
+            android:layout_below="@+id/Banner"
+            android:layout_centerHorizontal="true"
+            android:background="#4caf50"
+            android:layout_marginBottom="5px"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Capstone"
+            android:id="@+id/Capstone"
+            android:layout_below="@+id/Banner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5px"
+            android:background="#4caf50"/>
+    </TableLayout>
+
+
+</RelativeLayout>
